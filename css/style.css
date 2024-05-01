@@ -953,7 +953,7 @@ textarea:focus{
     }
 
     .menu{
-        max-width: 180px;
+        max-width: 190px;
         width: 100%;
     }
 
@@ -976,7 +976,6 @@ textarea:focus{
     .mail__link{
         font-size: 18px;
     }
-
 
     .offerlist__menu{
         flex-wrap: wrap;
