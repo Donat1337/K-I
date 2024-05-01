@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="">
+	<title>K&I</title>
+	<!-- Favicon -->
+	<link rel="icon" href="image/logo.png" type="image/png">
+	<link rel="shortcut icon" href="image/logo.png" type="image/png">
+	<!-- CSS Styles -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navigation navigation__about"> 
+		<div class="container">
+          <img src="image/nav_img.png" alt="nav_img" class="nav_img">
+		  <div class="nav__menu d-flex">
+			<ul class="menu d-flex2">
+				<li class="menu__item">
+					<a href="index.html" class="menu__link">Главная</a>
+				</li>
+				<li class="menu__item">
+					<a href="services.html" class="menu__link">Услуги</a>
+				</li>
+				<li class="menu__item">
+					<a href="price.html" class="menu__link">Цены</a>
+				</li>
+			</ul>
+			<a href="https://vk.com/zxcgirllll" class="order" target="_blank">Сделать заказ</a>
+			</div>
+		</div>
+	</nav>
+	<header class="header__about">
+		<div class="container">
+			<img src="image/photo_main.jpg" alt="" class="photo__about-2">
+			<div class="info__about d-flex2">
+				<div class="about__text">
+					<h1 class="about__title">
+						Фриланс - это просто!
+					</h1>
+					<p class="about__subtitle">	В современном мире очень важно уметь общаться с людьми, работа на фрилансе как раз в этом и поможет.
+						Важно выстроить хорошие отношения между заказчиком и разработчиком. Я с уверенностью могу сказать, что мы с вами обязательно найдем общий язык и решим любую задачу!<br><br>
+						
+					</p>
+					<p class="about__expirience">	
+						<span class="about__bold">За 5 лет работы</span> с людьми я получала большое количество <span class="about__bold">положительных отзывов</span> и колоссальный опыт работы, именно поэтому <span class="about__bold">смогу найти поход к любому клиенту.</span>
+					</p>
+				</div>
+				<img src="image/photo_about.png" alt="photo" class="photo__about">	
+			</div>
+			<a href="https://vk.com/zxcgirllll" class="about__btn" target="_blank">Посмотреть отзывы</a>
+		</div>
+	</header>
+	<section class="urcontact">
+		<div class="container">
+			<h2 class="urcontact__title">Оставьте свои контакты</h2>
+			<form action="get" class="form__menu d-flex2">
+				<div class="form__contact">
+					<p class="form__text">Имя</p>
+					<input type="text" id="name" name="name" class="input">
+					<p class="form__text">Фамилия</p>
+					<input type="text" id="name" name="surname" class="input">
+					<p class="form__text">E-mail</p>
+					<input type="email" id="mail" name="email" class="input__email">
+				</div>
+				<div class="form__area">
+					<p class="form__text">Ваше сообщение</p>
+					<textarea id="textarea" name="textarea" class="textarea"></textarea>
+					<button type="button" class="btn">Отправить</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container d-flex2 footer__conteiner">
+            <div class="link__footer">
+				<a href="index.html" class="footer__link-item">Главная</a>
+				<a href="services.html" class="footer__link-item">Услуги</a>
+				<a href="price.html" class="footer__link-item">Цены</a>
+			</div>
+			<div class="mail__footer">
+				<p class="footer__text">По вопросам и предложениям</p>
+				<a href="mailto:kaseevairina9@gmail.com" class="footer__mail-item">kaseevairina9@gmail.com</a>
+			</div>
+			<div class="connection__footer">
+				<p class="footer__text">Связь со мной</p>
+				<ul class="footer__icon d-flex">
+					<a href="https://vk.com/zxcgirllll" target="_blank" class="icon__link">
+						<img src="image/vk.png" alt="" class="img__link">
+					</a>
+					<a href="https://telegram.im/@zxcgirllll" class="icon__link" target="_blank">
+						<img src="image/telega.png" alt="" class="img__link">
+					</a>
+					<a href="https://wa.me/+79022349921" class="icon__link" target="_blank">
+						<img src="image/whatsapp.png" alt="" class="img__link">
+					</a>
+				</ul>
+				<p class="copyright">© Кащеева Ирина Витальевна<br>г. Саранск, 2024 г.</p>
+			</div>
+        </div>
+	</footer>
+	</body>
+	<script>
+		var pressedButton = document.getElementsByTagName("button")[0];
+	  pressedButton.addEventListener("click", function (event) {
+	  alert("Сообщение успешно отправлено!")
+		})
+	</script>
+</html>
